@@ -1,0 +1,39 @@
+DiffCog:
+  batch_size: 512
+  cuda: true
+  data_path: ../datasets/assist0910/
+  dataset: assist0910
+  dec_embed_dim: 256
+  decoder: NCD
+  diff_lr: 0.0005
+  emb_size: 10
+  enc_embed_dim: 256
+  epochs: 1000
+  gpu: 5
+  great_wall: false
+  hid_dim: 256
+  is_adaptive_step: true
+  is_constraint: false
+  is_diffusion: true
+  latent_dim: 5
+  log_name: ./log/assist0910_NCD_ True_True_1_0.15.log
+  lr: 0.0005
+  mean_type: x0
+  meta_ratio: 0.15
+  meta_steps: 1
+  noise_max: 0.005
+  noise_min: 0.0005
+  noise_ratio: 0.15
+  noise_scale: 0.0001
+  noise_schedule: linear-var
+  norm: false
+  random_seed:
+  - 2023
+  relation_value: 0.5
+  reweight: true
+  sampling_noise: false
+  sampling_steps: 0
+  save_path: ./saved_models/
+  steps: 5
+  time_type: cat
+  weight_decay: 0.01
