@@ -1,3 +1,5 @@
+Code for IEEE Transactions on Learning Technologies - A Diffusion-Based Cognitive Diagnosis Framework for Robust Learner Assessment
+
 If this paper or code helps you, please cite:
 ```
 @ARTICLE{10745736,
